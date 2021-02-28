@@ -1,9 +1,9 @@
 {
     "max_open_trades": 3,
-    "stake_currency": "USDT",
-    "stake_amount": 20,
+    "stake_currency": "BTC",
+    "stake_amount": 0.001,
     "tradable_balance_ratio": 0.99,
-    "fiat_display_currency": "BTC",
+    "fiat_display_currency": "USD",
     "timeframe": "5m",
     "dry_run": false,
     "cancel_open_orders_on_exit": false,
@@ -40,15 +40,15 @@
             "rateLimit": 200
         },
         "pair_whitelist": [
-            "BTC/USDT","ETH/USDT","NEO/USDT","LTC/USDT","QTUM/USDT","ADA/USDT","XRP/USDT","EOS/USDT","IOTA/USDT",
-            "XLM/USDT","ONT/USDT","ICX/USDT","NULS/USDT","VET/USDT","LINK/USDT","WAVES/USDT","BTT/USDT","ONG/USDT","HOT/USDT",
-            "ZIL/USDT","ZRX/USDT","FET/USDT","BAT/USDT","XMR/USDT","ZEC/USDT","IOST/USDT","CELR/USDT","DASH/USDT","NANO/USDT",
-            "OMG/USDT","THETA/USDT","ENJ/USDT","MITH/USDT","MATIC/USDT","ATOM/USDT","TFUEL/USDT","ONE/USDT","ALGO/USDT","GTO/USDT",
-            "DUSK/USDT","COS/USDT","NPXS/USDT","COCOS/USDT","MTL/USDT","TOMO/USDT","DENT/USDT","KEY/USDT","DOCK/USDT","WAN/USDT","CVC/USDT",
-            "CHZ/USDT","BAND/USDT","XTZ/USDT","REN/USDT","RVN/USDT","HBAR/USDT","NKN/USDT","STX/USDT","ARPA/USDT","IOTX/USDT","RLC/USDT","CTXC/USDT",
-            "BCH/USDT","TROY/USDT","OGN/USDT","DREP/USDT","LSK/USDT","LTO/USDT","AION/USDT","MBL/USDT","COTI/USDT","STPT/USDT","WTC/USDT","DATA/USDT",
-            "SC/USDT","ZEN/USDT","VTHO/USDT","DGB/USDT","DCR/USDT","STORJ/USDT","MANA/USDT","BLZ/USDT","IRIS/USDT","KMD/USDT","SAND/USDT","OCEAN/USDT",
-            "NMR/USDT","DOT/USDT","RSR/USDT","PAXG/USDT","TRB/USDT","KSM/USDT","FIO/USDT","OXT/USDT","AVAX/USDT","NEAR/USDT","FIL/USDT","UTK/USDT","ANT/USDT"
+            "NEO/BTC","LTC/BTC","QTUM/BTC","ADA/BTC","XRP/BTC","EOS/BTC","IOTA/BTC",
+            "XLM/BTC","ONT/BTC","ICX/BTC","NULS/BTC","VET/BTC","LINK/BTC","WAVES/BTC","BTT/BTC","ONG/BTC","HOT/BTC",
+            "ZIL/BTC","ZRX/BTC","FET/BTC","BAT/BTC","XMR/BTC","ZEC/BTC","IOST/BTC","CELR/BTC","DASH/BTC","NANO/BTC",
+            "OMG/BTC","THETA/BTC","ENJ/BTC","MITH/BTC","MATIC/BTC","ATOM/BTC","TFUEL/BTC","ONE/BTC","ALGO/BTC","GTO/BTC",
+            "DUSK/BTC","COS/BTC","NPXS/BTC","COCOS/BTC","MTL/BTC","TOMO/BTC","DENT/BTC","KEY/BTC","DOCK/BTC","WAN/BTC","CVC/BTC",
+            "CHZ/BTC","BAND/BTC","XTZ/BTC","REN/BTC","RVN/BTC","HBAR/BTC","NKN/BTC","STX/BTC","ARPA/BTC","IOTX/BTC","RLC/BTC","CTXC/BTC",
+            "BCH/BTC","TROY/BTC","OGN/BTC","DREP/BTC","LSK/BTC","LTO/BTC","AION/BTC","MBL/BTC","COTI/BTC","STPT/BTC","WTC/BTC","DATA/BTC",
+            "SC/BTC","ZEN/BTC","DGB/BTC","DCR/BTC","STORJ/BTC","MANA/BTC","BLZ/BTC","IRIS/BTC","KMD/BTC","SAND/BTC","OCEAN/BTC",
+            "NMR/BTC","DOT/BTC","RSR/BTC","PAXG/BTC","TRB/BTC","KSM/BTC","FIO/BTC","OXT/BTC","AVAX/BTC","NEAR/BTC","FIL/BTC","UTK/BTC","ANT/BTC",
         ],
         "pair_blacklist": [
             "BNB/BTC",
